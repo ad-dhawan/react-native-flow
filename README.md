@@ -378,21 +378,21 @@ edgeType="smoothstep"
 <table>
 <tr>
 <td align="center">
-<img src="https://via.placeholder.com/300x200/4A90E2/FFFFFF?text=Organization+Chart" width="100%" />
+<img src="./src/Assets/OrganizationChart.png" width="100%" />
 <br />
 <b>Organization Chart</b>
 <br />
 Company hierarchies
 </td>
 <td align="center">
-<img src="https://via.placeholder.com/300x200/66BB6A/FFFFFF?text=Family+Tree" width="100%" />
+<img src="./src/Assets/FamilyTree.png" width="100%" />
 <br />
 <b>Family Tree</b>
 <br />
 Genealogy tracking
 </td>
 <td align="center">
-<img src="https://via.placeholder.com/300x200/9C27B0/FFFFFF?text=Knowledge+Graph" width="100%" />
+<img src="./src/Assets/KnowledgeGraph.png" width="100%" />
 <br />
 <b>Knowledge Graph</b>
 <br />
@@ -401,25 +401,18 @@ Learning paths
 </tr>
 <tr>
 <td align="center">
-<img src="https://via.placeholder.com/300x200/FF9800/FFFFFF?text=Decision+Tree" width="100%" />
+<img src="./src/Assets/DecisionTree.png" width="100%" />
 <br />
 <b>Decision Tree</b>
 <br />
 Interactive flowcharts
 </td>
 <td align="center">
-<img src="https://via.placeholder.com/300x200/00BCD4/FFFFFF?text=File+System" width="100%" />
+<img src="./src/Assets/FileSystem.png" width="100%" />
 <br />
 <b>File System</b>
 <br />
 Directory structures
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/300x200/263238/FFFFFF?text=Dark+Theme" width="100%" />
-<br />
-<b>Dark Theme</b>
-<br />
-Custom theming
 </td>
 </tr>
 </table>
@@ -453,7 +446,6 @@ We provide 21+ ready-to-use examples covering various use cases:
 ### Styling
 - **Dark Theme** - Complete dark mode implementation
 - **Minimalist** - Clean black and white design
-- **Compact Mobile** - Optimized for small screens
 
 ### Advanced
 - **Multi-Select** - Batch operations with action bar
