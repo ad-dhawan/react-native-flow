@@ -3,7 +3,6 @@
 A powerful React Native component for creating interactive tree diagrams and flow visualizations.
 
 [![npm](https://img.shields.io/npm/v/react-native-rnflow)](https://www.npmjs.com/package/react-native-rnflow)
-[![license](https://img.shields.io/npm/l/react-native-rnflow)](./LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
 
 ---
@@ -378,21 +377,21 @@ edgeType="smoothstep"
 <table>
 <tr>
 <td align="center">
-<img src="./src/Assets/OrganizationChart.png" width="100%" />
+<img src="https://raw.githubusercontent.com/ankitdhawan/react-native-rnflow/main/docs/images/organization-chart.png" width="100%" />
 <br />
 <b>Organization Chart</b>
 <br />
 Company hierarchies
 </td>
 <td align="center">
-<img src="./src/Assets/FamilyTree.png" width="100%" />
+<img src="https://raw.githubusercontent.com/ankitdhawan/react-native-rnflow/main/docs/images/family-tree.png" width="100%" />
 <br />
 <b>Family Tree</b>
 <br />
 Genealogy tracking
 </td>
 <td align="center">
-<img src="./src/Assets/KnowledgeGraph.png" width="100%" />
+<img src="https://raw.githubusercontent.com/ankitdhawan/react-native-rnflow/main/docs/images/knowledge-graph.png" width="100%" />
 <br />
 <b>Knowledge Graph</b>
 <br />
@@ -401,14 +400,14 @@ Learning paths
 </tr>
 <tr>
 <td align="center">
-<img src="./src/Assets/DecisionTree.png" width="100%" />
+<img src="https://raw.githubusercontent.com/ankitdhawan/react-native-rnflow/main/docs/images/decision-tree.png" width="100%" />
 <br />
 <b>Decision Tree</b>
 <br />
 Interactive flowcharts
 </td>
 <td align="center">
-<img src="./src/Assets/FileSystem.png" width="100%" />
+<img src="https://raw.githubusercontent.com/ankitdhawan/react-native-rnflow/main/docs/images/file-system.png" width="100%" />
 <br />
 <b>File System</b>
 <br />

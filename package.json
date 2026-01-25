@@ -1,7 +1,18 @@
 {
-  "name": "react-native-flow",
+  "name": "react-native-rnflow",
   "description": "A highly customizable, production-ready React Native tree/flow visualization component with extensive configuration options",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": "Ankit Dhawan",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ad-dhawan/react-native-flow"
+  },
+  "homepage": "https://github.com/ad-dhawan/react-native-flow",
+  "bugs": {
+    "url": "https://github.com/ad-dhawan/react-native-flow/issues"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
