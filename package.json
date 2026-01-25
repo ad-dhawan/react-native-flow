@@ -1,7 +1,7 @@
 {
   "name": "react-native-rnflow",
   "description": "A highly customizable, production-ready React Native tree/flow visualization component with extensive configuration options",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Ankit Dhawan",
   "license": "MIT",
   "private": false,
