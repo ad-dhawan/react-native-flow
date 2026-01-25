@@ -3,7 +3,6 @@
 A powerful React Native component for creating interactive tree diagrams and flow visualizations.
 
 [![npm](https://img.shields.io/npm/v/react-native-rnflow)](https://www.npmjs.com/package/react-native-rnflow)
-[![license](https://img.shields.io/npm/l/react-native-rnflow)](./LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
 
 ---
