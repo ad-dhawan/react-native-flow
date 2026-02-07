@@ -5,6 +5,7 @@ import { familyTreeData } from './Data/FamilyTreeData';
 import { advancedStyles } from './Styles/AdvanceExampleStyles';
 
 export function DarkThemeExample() {
+    console.log("DarkThemeExample")
 
     return (
         <RNFlow

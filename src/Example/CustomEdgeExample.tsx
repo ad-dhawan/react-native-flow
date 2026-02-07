@@ -4,6 +4,7 @@ import { decisionTreeData } from './Data/DecisionTree';
 import { Circle, Path } from 'react-native-svg';
 
 export function CustomEdgeExample() {
+    console.log("CustomEdgeExample")
     return (
         <RNFlow
             data={decisionTreeData}
