@@ -10,6 +10,7 @@ const RNFlow_1 = __importDefault(require("../RNFlow"));
 const FamilyTreeData_1 = require("./Data/FamilyTreeData");
 const AdvanceExampleStyles_1 = require("./Styles/AdvanceExampleStyles");
 function DarkThemeExample() {
+    console.log("DarkThemeExample");
     return (<RNFlow_1.default data={FamilyTreeData_1.familyTreeData} layout={{
             direction: 'horizontal',
             nodeWidth: 150,

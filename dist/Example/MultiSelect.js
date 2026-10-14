@@ -43,6 +43,7 @@ const RNFlow_1 = __importDefault(require("../RNFlow"));
 const OrganizationChartData_1 = require("./Data/OrganizationChartData");
 const AdvanceExampleStyles_1 = require("./Styles/AdvanceExampleStyles");
 function MultiSelectExample() {
+    console.log("MultiSelectExample");
     const [selectedNodes, setSelectedNodes] = (0, react_1.useState)([]);
     const handleNodePress = (0, react_1.useCallback)((node) => {
         setSelectedNodes((prev) => {
