@@ -4,6 +4,9 @@ A powerful React Native component for creating interactive tree diagrams and flo
 
 [![npm](https://img.shields.io/npm/v/react-native-rnflow)](https://www.npmjs.com/package/react-native-rnflow)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
+[![Website](https://img.shields.io/badge/website-react--native--rnflow.netlify.app-00C7B7)](https://react-native-rnflow.netlify.app)
+
+**Homepage & docs:** [react-native-rnflow.netlify.app](https://react-native-rnflow.netlify.app)
 
 ---
 
