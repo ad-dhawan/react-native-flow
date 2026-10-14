@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.layoutTree = layoutTree;
 exports.getTreeBounds = getTreeBounds;
-exports.getEdgePath = getEdgePath;
 exports.flattenTree = flattenTree;
+exports.getEdgePath = getEdgePath;
 exports.getZoomControlsPosition = getZoomControlsPosition;
 function layoutTree(node, depth = 0, offset = { value: 0 }, config) {
     const children = node.children || [];
@@ -53,6 +53,15 @@ function getTreeBounds(nodes, nodeWidth, nodeHeight) {
         minX,
         minY,
     };
+}
+function flattenTree(root) {
+    const nodes = [];
+    const traverse = (n) => {
+        nodes.push(n);
+        n.children?.forEach(traverse);
+    };
+    traverse(root);
+    return nodes;
 }
 function getEdgePath(parent, child, direction, nodeWidth, nodeHeight, paddingAmount, edgeType = 'step') {
     if (direction === 'vertical') {
@@ -117,15 +126,6 @@ function getEdgePath(parent, child, direction, nodeWidth, nodeHeight, paddingAmo
             }
         }
     }
-}
-function flattenTree(root) {
-    const nodes = [];
-    const traverse = (n) => {
-        nodes.push(n);
-        n.children?.forEach(traverse);
-    };
-    traverse(root);
-    return nodes;
 }
 function getZoomControlsPosition(position) {
     const base = {

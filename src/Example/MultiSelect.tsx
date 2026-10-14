@@ -6,6 +6,8 @@ import { organizationData } from './Data/OrganizationChartData';
 import { advancedStyles } from './Styles/AdvanceExampleStyles';
 
 export function MultiSelectExample() {
+    console.log("MultiSelectExample");
+
     const [selectedNodes, setSelectedNodes] = useState<string[]>([]);
 
     const handleNodePress = useCallback((node: RNFlowNode) => {

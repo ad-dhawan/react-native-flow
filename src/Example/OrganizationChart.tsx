@@ -6,6 +6,7 @@ import { organizationData } from './Data/OrganizationChartData';
 import { exampleStyles } from './Styles//ExampleStyles';
 
 export function OrganizationChartExample() {
+    console.log("OrganizationChartExample")
     const [selectedNodeIds, setSelectedNodeIds] = useState<string[]>([]);
 
     return (

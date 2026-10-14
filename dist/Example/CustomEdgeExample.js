@@ -9,6 +9,7 @@ const RNFlow_1 = __importDefault(require("../RNFlow"));
 const DecisionTree_1 = require("./Data/DecisionTree");
 const react_native_svg_1 = require("react-native-svg");
 function CustomEdgeExample() {
+    console.log("CustomEdgeExample");
     return (<RNFlow_1.default data={DecisionTree_1.decisionTreeData} layout={{
             direction: 'vertical',
             nodeWidth: 150,

@@ -67,6 +67,16 @@ export function getTreeBounds<T = any>(
     };
 }
 
+export function flattenTree<T = any>(root: RNFlowNode<T>): RNFlowNode<T>[] {
+    const nodes: RNFlowNode<T>[] = [];
+    const traverse = (n: RNFlowNode<T>) => {
+        nodes.push(n);
+        n.children?.forEach(traverse);
+    };
+    traverse(root);
+    return nodes;
+}
+
 export function getEdgePath<T = any>(
     parent: RNFlowNode<T>,
     child: RNFlowNode<T>,
@@ -145,16 +155,6 @@ export function getEdgePath<T = any>(
             }
         }
     }
-}
-
-export function flattenTree<T = any>(root: RNFlowNode<T>): RNFlowNode<T>[] {
-    const nodes: RNFlowNode<T>[] = [];
-    const traverse = (n: RNFlowNode<T>) => {
-        nodes.push(n);
-        n.children?.forEach(traverse);
-    };
-    traverse(root);
-    return nodes;
 }
 
 export function getZoomControlsPosition(

@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
     scrollView: {
         flex: 1,
     },
+
     nodeWrapper: {
         position: 'absolute',
     },
@@ -23,6 +24,7 @@ export const styles = StyleSheet.create({
         color: '#333',
         textAlign: 'center',
     },
+
     zoomControls: {
         backgroundColor: 'rgba(255, 255, 255, 0.9)',
         borderRadius: 8,
@@ -38,6 +40,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         padding: 4,
     },
+    
     debugInfo: {
         position: 'absolute',
         bottom: 12,

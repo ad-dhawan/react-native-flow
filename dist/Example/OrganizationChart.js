@@ -43,6 +43,7 @@ const RNFlow_1 = __importDefault(require("../RNFlow"));
 const OrganizationChartData_1 = require("./Data/OrganizationChartData");
 const ExampleStyles_1 = require("./Styles//ExampleStyles");
 function OrganizationChartExample() {
+    console.log("OrganizationChartExample");
     const [selectedNodeIds, setSelectedNodeIds] = (0, react_1.useState)([]);
     return (<RNFlow_1.default data={OrganizationChartData_1.organizationData} selectedNodeIds={selectedNodeIds} layout={{
             direction: 'vertical',
